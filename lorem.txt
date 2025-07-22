@@ -1,0 +1,3 @@
+olá, mundo
+teste
+\Lorem Ipsum é um texto padrão em latim usado como placeholder para preencher espaços em projetos gráficos e de desenvolvimento, simulando conteúdo real.

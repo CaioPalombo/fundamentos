@@ -1,0 +1,14 @@
+#-------------------------------
+#Extrair Data
+#-------------------------------
+
+pagina_noticia = acessar_pagina(link)[0]
+
+data_elemento = pagina_noticia.find("h1", attrs = "class" : "gh-article-title)
+if data_elemento:
+    data_texto = data_elemento.text.strip()
+    data = data_extenso(data_texto, "%B %d, %Y", "pt_BR.utf8")
+                        
+else:
+    data = "NA"
+    print(f"data: {data}")S
