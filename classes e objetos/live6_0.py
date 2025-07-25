@@ -22,6 +22,7 @@ class Fila(ABC):
         return obj in self.it
     ...
     
+    @abstractmethod
     def __repr__(self):
         return f'Fila({self.it})'
     ...
